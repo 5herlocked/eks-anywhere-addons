@@ -1,4 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: pass-fork-prod
+  name: cross-fork-prod
