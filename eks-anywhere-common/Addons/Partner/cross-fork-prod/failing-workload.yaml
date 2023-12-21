@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: cross-fork-prod
+  namespace: pass-fork-prod
   name: liveliness-check
   labels:
     app: liveliness-app
