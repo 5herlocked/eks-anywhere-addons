@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: cross-fork-prod
+  namespace: pass-fork-prod
   name: liveliness-check
   labels:
     app: liveliness-app
@@ -21,7 +21,7 @@ spec:
           args:
             - /bin/sh
             - -c
-            - touch /tmp/healthy; sleep 30; rm -f /tmp/healthy; sleep 600
+            - while true; do touch /tmp/healthy; sleep 600; done
           livenessProbe:
             exec:
               command:
