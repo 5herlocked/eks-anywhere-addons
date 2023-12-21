@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pass-fork-prod-configmap
+  namespace: pass-fork-prod
+  labels:
+    bot: conformitron
+data:
+  Namespace: pass-fork-prod
+  prNumber: "2"
+  commitHash: 991de85a4b43600f5c6a722c80e7a7ff0aa09aa4
+  deployed: 1703193738
