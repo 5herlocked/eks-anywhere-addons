@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: pat-ns-configmap
+  namespace: pat-ns
+  labels:
+    bot: conformitron
+data:
+  Namespace: pat-ns
+  prNumber: "3"
+  commitHash: 3a5333775787c14dedae3381ab546f2bfd643abc
+  deployed: "1704995742"
+  env: common
