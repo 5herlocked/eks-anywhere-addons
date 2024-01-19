@@ -8,6 +8,6 @@ metadata:
 data:
   Namespace: pat-ns
   prNumber: "3"
-  commitHash: 3a5333775787c14dedae3381ab546f2bfd643abc
-  deployed: "1704995742"
+  commitHash: 78a22d0626daa77a7a98ef11b9b9a7de87911571
+  deployed: "1705693728"
   env: common
