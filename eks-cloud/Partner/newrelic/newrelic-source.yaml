@@ -2,9 +2,9 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
-  name: openebs
-  namespace: openebs
+  name: newrelic-charts
+  namespace: flux-system
 spec:
   interval: 30s
-  url:  https://openebs.github.io/charts
+  url: https://helm-charts.newrelic.com
 
